@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herói</title>
+</head>
+<body>
+    <h1>Herói</h1>
+    <script src="hero.js"></script>
+    <script>
+        const mago = new Hero("Merlin", 40, "mago");
+        const guerreiro = new Hero("Arthur", 30, "guerreiro");
+
+        document.write(`<p>${mago.atacar()}</p>`);
+        document.write(`<p>${guerreiro.atacar()}</p>`);
+    </script>
+</body>
+</html>
